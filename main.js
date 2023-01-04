@@ -14,7 +14,8 @@ const urls = [
 function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1280,
-    height: 720
+    height: 720,
+    frame: false
   })
 
   const index = Math.floor(Math.random() * urls.length);
